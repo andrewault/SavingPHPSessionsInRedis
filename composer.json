@@ -1,0 +1,12 @@
+{
+    "require": {
+        "predis/predis": "0.8.*@dev",
+        "php": ">=5.4"
+    },
+
+    "autoload": {
+        "classmap": [
+            "include/"
+        ]
+    }
+}
