@@ -1,5 +1,5 @@
 <?php
-class RedisSessionHandler implements \SessionHandlerInterface
+class RedisSessionHandler
 {
     public $ttl = 1800; // 30 minutes default
     protected $db;
